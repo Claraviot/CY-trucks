@@ -51,3 +51,19 @@ int nbFeuilles(PArbre );
 int degreNoeud(PArbre );
 int degreArbre(PArbre );
 bool degenere(PArbre );
+
+bool fourchu(PArbre );
+void ABVersTabRec(PArbre , int , TArbBin *, int );
+TArbBin* ABVersTab(PArbre , int );
+PArbre creerArbre(Element );
+PArbre ajouterFilsGauche(PArbre , Element );
+PArbre ajouterFilsDroit(PArbre , Element );
+PArbre supprimerFilsGauche(PArbre a);
+PArbre supprimerFilsDroit(PArbre );
+void traiter(Element );
+void parcoursPrefixe(PArbre );
+void parcoursInfixe(PArbre );
+void parcoursLargeur(PArbre );
+void affArbreGraphique(PArbre, int );
+void affArbre(PArbre );
+#endif
