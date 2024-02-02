@@ -1,7 +1,7 @@
 # CY-trucks
 
 Cy-truck
-- script.sh
+- (script.sh)
 - data (data.csv)
 - demo (les résultats d'exécutions précédent : les 5 graphes)
 - images (les 5 graphes)
@@ -11,8 +11,8 @@ Cy-truck
 
 
 Dans le dossier Cy-truck, pour compiler le code sur le terminal : 
-./script.sh -d1
-./script.sh -d2
-./script.sh -l
-./script.sh -s
-./script.sh -t
+1) ./script.sh -d1
+2) ./script.sh -d2
+3) ./script.sh -l
+4) ./script.sh -s
+5) ./script.sh -t
